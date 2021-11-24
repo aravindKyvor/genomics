@@ -80,7 +80,7 @@ class Navbar extends Component {
                       <Trans>
                         {" "}
                         <Link
-                          to="/user-pages/login-1"
+                          to="#"
                           style={{  textDecoration: "none" }}
                         >
                           Signout

@@ -36,7 +36,7 @@ class AppRoutes extends Component {
     return (
       <Suspense fallback={<Spinner/>}>
         <Switch>
-          <Route exact path="/" component={ Dashboard } />
+          <Route exact path="/dashboard" component={ Dashboard } />
 
 
           <Route path="/basic-ui/Analysis" component={ Analysis } />
@@ -69,7 +69,7 @@ class AppRoutes extends Component {
           <Route path="/general-pages/blank-page" component={ BlankPage } />
 
 
-          <Redirect to="/" />
+          <Redirect to="/dashboard" />
         </Switch>
       </Suspense>
     );
